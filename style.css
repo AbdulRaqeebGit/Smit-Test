@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar css */
+.Login {
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3s background-color;
+    color: black;
+  }
+  /* landscape css */
+  .landscape{
+    padding: 100px 0px 100px 0px;
+    width: fit-content;
+  }
+  .landscape-content{
+    padding: auto;
+  }
+  .landscape-content h1{
+    word-spacing: 10px;
+    font-size: 50px;
+  }
+  .landscape-content button{
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .landscape-img img{
+    height: 100%;
+    width: 102%;
+
+  }
+  /* brand-logs css */
+  .brands-logo img{
+    height: 80px;
+    width: 110px;
+  }
+  /* services css */
+  .services h2{
+    font-weight: 400;
+    background-color: #B9FF66;
+    border-radius: 10px;
+    margin: 0px 40px;
+    padding: 5px;
+    height: fit-content;
+  }
+  .services p{
+    font-size: 20px;
+    margin: 50px 0px;
+  }
+    /* services-card css */
+    .services-cards{
+    }
+    .card-service{
+        background-color: #F3F3F3;
+        border:10px solid black;
+        border-radius: 50px;
+        width: 30rem;
+        height: 19rem;
+        border: solid #000;
+        border-width: 1px 1px 10px;
+        border-radius: 2rem;
+        align-items: center;
+        margin: 50px;
+    }
+    .card-service p:nth-child(1){
+        background-color: #B9FF66;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .cd{
+        background-color: #B9FF66;
+    }
+    .card-content{
+        width: 50%;
+    }
+    .card-content a{
+        text-decoration: none;
+        color: black;
+    }
+    .our-working-proces h2{
+        background-color: #B9FF66;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 50px 50px;
+    }
+    .our-working-proces p{
+        font-size: 20px;
+    }
+    /* dropdwon css */
+    .accordion-item, .accordion-button ,.accordion-collapse ,.accordion-header{
+        background-color: #B9FF66;
+    }
